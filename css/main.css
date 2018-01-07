@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*--------------ESTILOS PARA EL INDEX-HTML SPLASH---------------*/
+body {
+    background-color: rgba(10, 190, 91, 0.932);
+   
+}
+.fly-in-text {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.fly-in-text li {
+    display: inline-block;
+    color: #fff;
+    /*margin-right: 1%;*/
+    font-family: Open Sans, Arial;
+    font-weight: 300;
+    font-size: 2.7rem;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+.fly-in-text li:last-child {
+    margin-right: 0;
+}
+.fly-in-text.oculto li {
+    opacity: 0;
+}
+
+.fly-in-text.oculto li:nth-child(1) { transform: translateX(-200px) translateY(-200px);}
+.fly-in-text.oculto li:nth-child(2) { transform: translateX(20px) translateY(100px);}
+.fly-in-text.oculto li:nth-child(3) { transform: translateX(-150px) translateY(-80px);}
+.fly-in-text.oculto li:nth-child(4) { transform: translateX(-10px) translateY(-200px); }
+.fly-in-text.oculto li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+.fly-in-text.oculto li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+.fly-in-text.oculto li:nth-child(7) { transform: translateX(30px) translateY(200px); }
+
+/*-------------------ESTILOS PARA EL CONTENIDO-HTML--------*/
+.title, .sub-title {
+    text-align: center;
+    color: rgb(242, 247, 246);
+}
+.icon-search {
+    color: #fff;
+    padding: 2%;
+}
+.search {
+    display: inline-block;
+    outline: 1px solid #fff;
+    padding: 0;
+}
+input {
+    border: none;
+}
+.menus {
+    margin-top: 2%;
+    text-align: center;
+    float: right;
+}
+#search {
+    text-decoration: none;
+}
+.men {
+    width:30%;
+    margin: 2px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.hola {
+    border-radius:50%;
+    -webkit-border-radius:80%;
+    box-shadow: 0px 0px 8px 8px #d4f5eb;
+    -webkit-box-shadow: 0px 0px 8px 8px #eff7f7;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.mod-imag {
+    width: 95%;
+}
+
