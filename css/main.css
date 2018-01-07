@@ -1,5 +1,9 @@
+body {
+  font-family: 'Acme', sans-serif;
+}
+/*Estilos vista principal*/
 .main-page h1 {
-  font-size: 5rem;
+  font-size: 6.1rem;
   color: #56bdab;
 }
 .main-page{
@@ -13,9 +17,114 @@
     padding: 2em;
 }
 
-.btn-lg{
+.main-page .btn-lg{
     margin: 1rem;
     border: 0.2rem solid #fff;
     background: transparent;
     color: #fff;
+}
+/*Estilos vista registro*/
+.registry, .log-in {
+  margin-bottom: 1rem;
+  padding-top:0.5rem;
+}
+
+.registry a, .log-in a {
+  color: #56bdab;
+}
+
+.title-registry, .log-in {
+  color: #f84d00;
+}
+/*boton de "Atrás"*/
+.registry-paragraph {
+  margin-left: 0.5rem;
+}
+.login-paragraph {
+  margin-left: 0.6rem;
+}
+/*Estilos vista inicio de sesion*/
+.submit {
+  background-color: #f84d00;
+  color: #fff;
+}
+/*imagen ingrese con facebook,etc..*/
+.img-login {
+  width: 3rem;
+  display: inline-block;
+}
+.password {
+  margin-bottom: 12rem;
+}
+
+.btn-gmail, .btn-mesengr, .btn-fb, .btn-Universdd {
+  width: 16.4rem;
+  margin-bottom: 0.5rem;
+  border: 0.2rem solid #eaeaea;
+}
+/*boton gmail*/
+.btn-gmail {
+  color: #d54b3d;
+}
+/*boton mesengr*/
+.btn-mesengr {
+  color: #0072c6;
+}
+/*btn-facebook*/
+.btn-fb {
+  color: #3b579d;
+}
+/*btn-Universidad*/
+.btn-Universdd {
+  color: #56bdab;
+  margin-bottom: 3rem;
+}
+/*media queries */
+/*tablet-responsive*/
+@media (min-width: 768px) {
+  .main-page h1 {
+    font-size: 8rem;
+    color: #56bdab;
+  }
+  .title-registry{
+    font-size: 4.5rem;
+  }
+  .registry-paragraph {
+    font-size: 1.8rem;
+    margin-left: 2.8rem;
+  }
+  .title-log-in {
+    font-size: 4.5rem;
+  }
+  .login-paragraph {
+    font-size: 1.8rem;
+    margin-left: 2.8rem;
+  }
+}
+/*desktop-responsive*/
+@media (min-width: 1200px) {
+  .main-page h1 {
+    font-size: 11rem;
+    color: #56bdab;
+  }
+  .title-registry{
+    font-size: 5rem;
+  }
+  .registry-paragraph {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  .title-log-in {
+    font-size: 5rem;
+  }
+  .login-paragraph {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  .btn-gmail, .btn-mesengr, .btn-fb, .btn-Universdd {
+    width: 16rem;
+    margin-bottom: 2rem;
+    border: 0.2rem solid #eaeaea;
+  }
+
 }
