@@ -1,4 +1,21 @@
-body {
-  background-image: url("../assets/images/fondoviru.jpg");
-  background-color: rgba(66, 22, 99, 0.25);
+.main-page h1 {
+  font-size: 5rem;
+  color: #56bdab;
+}
+.main-page{
+    background: url(../assets/images/fondoviru.jpg) no-repeat center center;
+    background-size: cover;
+    max-width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.btn-lg{
+    margin: 1rem;
+    border: 0.2rem solid #fff;
+    background: transparent;
+    color: #fff;
 }
