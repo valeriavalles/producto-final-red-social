@@ -6,6 +6,12 @@ body {
   font-size: 6.1rem;
   color: #56bdab;
 }
+
+.main-page p {
+  font-size: 1.7rem;
+  color: #fff;
+}
+
 .main-page{
     background: url(../assets/images/fondoviru.jpg) no-repeat center center;
     background-size: cover;
@@ -57,18 +63,18 @@ body {
   margin-bottom: 18rem;
 }
 
-.btn-gmail, .btn-mesengr, .btn-fb, .btn-Universdd {
-  width: 16.4rem;
+.btn-gmail, .btn-twitter, .btn-fb, .btn-Universdd {
+  width: 16rem;
   margin-bottom: 0.5rem;
   border: 0.2rem solid #eaeaea;
 }
 /*boton gmail*/
-.btn-gmail {
+/*.btn-gmail {
   color: #d54b3d;
-}
+}*/
 /*boton mesengr*/
-.btn-mesengr {
-  color: #0072c6;
+.btn-twitter {
+  color: #55acee;
 }
 /*btn-facebook*/
 .btn-fb {
@@ -121,10 +127,13 @@ body {
     font-size: 2rem;
     margin-left: 2rem;
   }
-  .btn-gmail, .btn-mesengr, .btn-fb, .btn-Universdd {
-    width: 20rem;
+  .btn-gmail, .btn-twitter, .btn-fb, .btn-Universdd {
+    width: 21rem;
     margin-bottom: 2rem;
     border: 0.2rem solid #eaeaea;
   }
-
+  .main-page p {
+    font-size: 2.2rem;
+    color: #fff;
+  }
 }
