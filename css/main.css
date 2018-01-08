@@ -143,3 +143,23 @@ h3 {
 .icon-bar {
     color: #fff;
 }
+.stylo-nav {
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+}
+.item-a:hover {
+    background: #fff;
+}
+.navbar-default .navbar-nav>li>a{
+   
+    background: #fff;
+}
+
+.imagen2 img {
+  width: 10%;
+  border-radius: 100%;
+  display: inline-block;  
+}
