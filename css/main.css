@@ -54,7 +54,7 @@ body {
   display: inline-block;
 }
 .password {
-  margin-bottom: 12rem;
+  margin-bottom: 18rem;
 }
 
 .btn-gmail, .btn-mesengr, .btn-fb, .btn-Universdd {
@@ -122,7 +122,7 @@ body {
     margin-left: 2rem;
   }
   .btn-gmail, .btn-mesengr, .btn-fb, .btn-Universdd {
-    width: 16rem;
+    width: 20rem;
     margin-bottom: 2rem;
     border: 0.2rem solid #eaeaea;
   }
