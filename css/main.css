@@ -131,3 +131,15 @@ h3 {
     padding-left: 0;
     padding-right: 0; 
 }
+.llama {
+    width:60px;
+}
+.header button {
+    background: #fc4a14;
+}
+.header button:hover{
+    background: #fff;
+}
+.icon-bar {
+    color: #fff;
+}
