@@ -50,9 +50,9 @@ box-sizing: border-box;
     margin-top: 5%;
     margin-bottom: 3%;
     padding-top: 2%;
-    
     background: #fff;
     text-align: center;
+    margin-right: 3%;
 }
 .text textarea {
     width: 100%;
@@ -153,7 +153,11 @@ h3 {
 .item-a:hover {
     background: #fff;
 }
+
 .navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
    
     background: #fff;
 }
@@ -162,4 +166,17 @@ h3 {
   width: 10%;
   border-radius: 100%;
   display: inline-block;  
+}
+header .stylo-nav {
+    
+    display: block;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+     border-color: white; 
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fc4a14;
 }
