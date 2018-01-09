@@ -9,108 +9,152 @@
     <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
 </head>
-<body class="contenido">
-    <!--************HEADER***********-->
-    <header class="header">
-        <div>
-            <nav class="stylo-nav navbar navbar-default header navbar-fixed-top">
+<body>
+    <!--HEADER MOVIL/DESKTOP-->
+    <header>
+        <nav class="nav-header navbar navbar-default  navbar-fixed-top">
                 <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
-                            <span class="sr-only"></span>
-                            <span class="icon-bar p"></span>
-                            <span class="icon-bar p"></span>
-                            <span class="icon-bar p"></span>
-                        </button>
-                        <a href="#" class="navbar-brand llama"> <img src="../assets/images/llama.png" class="img-responsive" alt="llama"> </a>   
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-1">
+                                <span class="sr-only"></span>
+                                <span class="icon-bar p"></span>
+                                <span class="icon-bar p"></span>
+                                <span class="icon-bar p"></span>
+                            </button>
+                            <a href="#" class="navbar-brand"></a>   
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar-1">
+                            <ul class="nav navbar-nav  navbar-right">
+                                <li ><a href="#" class="imagen2 " >usuario </a></li>
+                                <li ><a href="#" class="imagen2 " > Notificaciones</a></li>
+                                <li ><a href="#" class="imagen2 " > Historias</a></li> 
+                                <li ><a href="#" class="imagen2 " > Salir</a></li> 
+                            </ul>
+                        </div>
+                </div>
+        </nav>
+    </header>
+    <!--********SECTION IMAGEN FONDO ****************-->
+    <section>
+        <div class="fondo-contenido">
+        </div>
+    </section>
+    <!--*********** SECTION PARA POSTEAR *********** -->
+    <section>
+        <div class="container">
+            <div class="row col-xs-12 col-sm-12 col-md-12">
+                <div class="post col-xs-12 col-sm-6 col-md-6">
+                    <div class="post-1 col-xs-12">
+                        <div class="cont-img-text col-xs-12">
+                            <div class="col-xs-4 col-sm-4"><img src="../assets/images/1.jpg" class="img-responsive" alt="1"></div>
+                            <div class="col-xs-8 col-sm-8"><textarea name="" id="" cols="30" rows="4"></textarea></div>
+                        </div>
+                        <div class="cont-img-text col-xs-12">
+                            <div class="iconos col-xs-6">
+                                <span><i class="glyphicon glyphicon-camera"></i></span>
+                                <span><i class="glyphicon glyphicon-paperclip"></i></span>
+                                <span><i class="icon-emoji-happy"></i></span>
+                            </div>
+                            <div class="cont-btn col-xs-6">
+                                <input type="button" class="btn boton" id="btn-publicar" value="Publicar">
+                            </div>
+                        </div>
                     </div>
-                    <div class="collapse navbar-collapse" id="navbar-1">
-                        <ul class="nav navbar-nav  navbar-right col-sm-9 col-md-9">
-                            <li id="item-a" class="col-sm-4 col-md-3"><a href="../views/perfil.html" class="imagen2 " ><img src="../assets/images/usuario.jpg"  class="img-responsive visible-xs" alt="usuario"> Usuario</a></li>
-                            <li id="item-a" class="col-sm-4 col-md-3"><a href="#" class="imagen2 " ><img src="../assets/images/campana.png"  class="img-responsive visible-xs" alt=""> Notificaciones</a></li>
-                            <li id="item-a" class="col-sm-3 col-md-3"><a href="#" class="imagen2 " ><img src="../assets/images/mundo2.png"   class="img-responsive visible-xs" alt="mundo"> Historias</a></li> 
-                            <li id="item-a" class="col-sm-3 col-md-3"><a href="#" class="imagen2 " ><img src="../assets/images/salir.png"   class="img-responsive visible-xs" alt="salir"> Salir</a></li> 
-                        </ul>
+                    <div class="post-1 col-xs-12">
+                            <div class="cont-img-text col-xs-12">
+                                <div class="col-xs-4 col-sm-4"><img src="../assets/images/3.jpg" class="img-responsive" alt="1"></div>
+                                <div class="col-xs-8 col-sm-8">
+                                    <p>hoy es un excelente dia para comenzar de nuevo, buen dia ;)</p>
+                                </div>
+                            </div>
+                            <div class="cont-img-text col-xs-12">
+                                <div class="iconos col-xs-6">
+                                    <span><i class="glyphicon glyphicon-heart-empty"></i></span>
+                                    <span><i class="glyphicon glyphicon-comment"></i></span>
+                                    <span><i class="icon-emoji-happy"></i></span>
+                                </div>
+                                <div class="cont-btn col-xs-6">
+                                   <a href="#"><span><i class="glyphicon glyphicon-share-alt"></i>Compartir</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-1 col-xs-12">
+                                <div class="cont-img-text col-xs-12">
+                                    <div class="col-xs-4 col-sm-4"><img src="../assets/images/2.jpg" class="img-responsive" alt="1"></div>
+                                    <div class="col-xs-8 col-sm-8">
+                                        <h5>Viajando por el Mundo</h5>
+                                        <img src="../assets/images/viajero1.jpg" class="img-responsive" alt="">
+                                    </div>
+                                </div>
+                                <div class="cont-img-text col-xs-12">
+                                    <div class="iconos col-xs-6">
+                                        <span><i class="glyphicon glyphicon-heart-empty"></i></span>
+                                        <span><i class="glyphicon glyphicon-comment"></i></span>
+                                        <span><i class="icon-emoji-happy"></i></span>
+                                    </div>
+                                    <div class="cont-btn col-xs-6">
+                                        <a href="#"><span><i class="glyphicon glyphicon-share-alt"></i>Compartir</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-1 col-xs-12">
+                                    <div class="cont-img-text col-xs-12">
+                                        <div class="col-xs-4 col-sm-4"><img src="../assets/images/4.jpg" class="img-responsive" alt="1"></div>
+                                        <div class="col-xs-8 col-sm-8">
+                                            <h4>Excellent song <span><i class="glyphicon glyphicon-music"></i></span></h4>
+                                           <img src="../assets/images/video.jpg" class="img-responsive" alt="video">
+                                        </div>
+                                    </div>
+                                    <div class="cont-img-text col-xs-12">
+                                        <div class="iconos col-xs-6">
+                                            <span><i class="glyphicon glyphicon-heart-empty"></i></span>
+                                            <span><i class="glyphicon glyphicon-comment"></i></span>
+                                            <span><i class="icon-emoji-happy"></i></span>
+                                        </div>
+                                        <div class="cont-btn col-xs-6">
+                                            <a href="#"><span><i class="glyphicon glyphicon-share-alt"></i>Compartir</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+                <div class="post col-xs-12 col-sm-5 col-md-5">
+                    <div class="mapa">
+                        <h2>Amigos cerca de Ti </h2>
+                        <div class="fondo-mapa">
+                            <img src="../assets/images/1.jpg" class="img-responsive p1" alt="1">
+                            <img src="../assets/images/2.jpg" class="img-responsive p1" alt="2">
+                            <img src="../assets/images/3.jpg" class="img-responsive p1" alt="3">
+                            <img src="../assets/images/4.jpg" class="img-responsive p1" alt="4">
+                            
+                        </div>
+
                     </div>
                 </div>
-            </nav>
-        </div>
-    </header>
-    <!--*************************** FONDO DE PORTADA *****************-->
-    <section class="fondo">
-        <div class="container">
-            <div class="fon col-xs-12 col-sm-8">
-            <!--    <img src="../assets/images/usuario.jpg" class="usuario1 center-block img-responsive " alt="paisaje">-->
             </div>
         </div>
     </section>
-    <!--************** CONTENEDOR DE TEXTAREA Y MAPA **********-->
-    <section>
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <div class="col-xs-12 col-sm-6 col-md-6">
-                <div class="cont-2 col-xs-12 col-sm-6  col-md-6">
-                    <div class="text col-xs-12 col-sm-6 col-md-6">
-                        <div class="ima col-xs-3 col-sm-2 col-md-2">
-                            <img src="../assets/images/usuario.jpg" class="usuario  img-responsive" alt="usuario">
+    
+    <section class="app">
+                 <div class="container">
+                      <div class="row">
+                        <div class="col-xs-12">
+                          <div id="title">
+                            <b>TO DO APP</b>
+                          </div>
+                          <textarea class="form-control" id="textarea"></textarea>
+                          <button id="btn" type="submit" class="btn btn-primary"> + Añadir tarea</button>
+                          <div id="container-to-do"></div>
                         </div>
-                        <div class="textarea col-xs-9 col-sm-10">
-                            <textarea name="" id="" class="" rows="4" placeholder="¿como te sientes hoy?"></textarea>
-                        </div>
+                      </div>
+                
                     </div>
-                    <div class="col col-xs-12 ">
-                        <hr>
-                        <div class="iconos col-xs-6">
-                            <span><i class="glyphicon glyphicon-camera"></i></span>
-                            <span><i class="glyphicon glyphicon-paperclip"></i></span>
-                            <span><i class="icon-emoji-happy"></i></span>
-                        </div>
-                        <div class="cont-btn col-xs-6">
-                            <input type="button" class="btn boton" value="Publicar">
-                        </div>
-                    </div>
-                </div>
-                <div class="cont-2 col-xs-12 col-sm-6  col-md-6">    
-                    <div class="text col-xs-12 col-sm-12 col-md-12">
-                        <div class="ima col-xs-3 col-sm-2 col-md-2">
-                            <img src="../assets/images/perfil.jpg" class="usuario  img-responsive" alt="usuario">
-                        </div>
-                        <div class="textarea col-xs-9 col-sm-10">
-                            <p>hoy es un dia super increible, buen dia a todos</p>
-                        </div>
-                    </div>
-                    <div class="col col-xs-12">
-                        <hr>
-                        <div class="iconos col-xs-6">
-                            <span><i class="glyphicon glyphicon-heart-empty"></i></span>
-                            <span><i class="glyphicon glyphicon-comment"></i></span>
-                            <span><i class="icon-emoji-happy"></i></span>
-                        </div>
-                        <div class="cont-btn col-xs-6">
-                               <!-- <input type="button" class="btn boton" value="Publicar">-->
-                            <span><i class="icon-forward"></i> Compartir</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6">   
-                <div class="cont-2 col-xs-12 col-sm-5 col-md-5">
-                    <div>
-                        <h2 >Amigos cerca de ti</h2>
-                    </div>
-                    <div class="mapa">
-                        <img src="../assets/images/mapa.jpg" class="img-responsive" alt="mapa">
-                    </div>
-                </div>     
-            </div>
-        </div>
     </section>
     <footer class="col-xs-4">
-        <div class="chat navbar-fixed-bottom col-xs-4 col-sm-2 col-md-1 col-lg-1 ">
-            chat
-        </div>
+            <div class="chat navbar-fixed-bottom col-xs-4 col-sm-2 col-md-1 col-lg-1 ">
+                CHAT
+            </div>
     </footer>
-    
-    
+
     
     
     <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>

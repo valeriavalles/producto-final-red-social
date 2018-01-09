@@ -3,199 +3,123 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
-
 body {
     background: #dfdce3;
 }
-.header {
-    display: block;
-    background: #56bdab;
-    color: #4abdac;
+/*-----HEADER----*/
+.nav-header, 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background:#56bdab; 
 }
-.nav {
-    background: #56bdab; 
-}
-.nav2 {
-    color: #4abdac;
-}
-.imagen {
-    width: 10%;
-}
-
-.fondo {
-    background: url('../assets/images/paisaje.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 35vh; 
-           
-
-}
-
-.usuario1 {
-   /* margin-top: 10%;*/
-    width: 60%;
-    
-};
-.fon {
-}
-.cont, .cont-2 {
-    margin-top: 3%;
-    margin-bottom: 2%;
-    padding-top: 2%;
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+} 
+.navbar-default .navbar-toggle .icon-bar {
     background: #fff;
-    text-align: center;
-    margin-right: 3%;
-    width: 100%;
 }
-.text textarea {
+/*--- SECTION FONDO --*/  
+.fondo-contenido {
+    background: url('../assets/images/paisaje.jpg')
+                center no-repeat;
+    background-size: cover;
     width: 100%;
-    outline: none;
-    border: none;
-    border-radius: 5px;
+    height:50vh ;
+}
+/*---- SECTION POST ----*/
+
+.cont-img-text {
+    outline: 1px solid black;
+    padding: 1%;
+    margin: 2%;
+    overflow: hidden;
+}
+.post {
+    margin-top: 2%; 
+    outline: 1px solid red;
+    margin-right: 2%;
+}
+.post-1 {
+    outline: 1px solid green;
+    margin-top: 4%;
+    background: #fff;
+}
+.post:nth-child(2) {
+    margin-right: 2%;
+}
+.boton {
+   width: 85%;
+   background: #56bdab;
+   color: #fff;
+}
+textarea {
+    width: 100%;
     resize: none;
 }
-.usuario {
-    border-radius: 100%;
-}
- .text, .ima {
-    padding-left: 0;
-    padding-right: 0;
-}
-.text {
-    margin-top: 2%;
+/*--------- MAPA ----*/
+.fondo-mapa {
+    background: url('../assets/images/mapa.jpg')
+                center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height:40vh ;
 }
 .mapa {
-    margin-top: 2%;
-    margin-bottom: 2%;
+    outline: 1px solid blue;
+    background: #fff;
+    padding: 4%;
 }
-.col {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-.cont-btn .boton {
-    background: #56bdab;
-    color: #fff;
-    border: none;
-    width:100%;
-    float:right;
-    margin-bottom: 1rem;
-}
-.boton:hover {
-    color: #fff;
-}
-span {
-    margin-right: 1rem;
-}
-.textarea p {
-    padding-top: 10%;
-}
-
-.chat {
-    display: inline-block;
-    height: 2.5rem;
-    background: #4abdac;
-    color: #fff;
-}
-/*----------------PERFIL HTML ----------------*/
-.perfil-1 {
-   
-   /* margin-top: 2%;*/
-   margin-top: 25%;
- /*  padding: 10%;*/
-   padding-bottom: 0;
-   margin-left: 6%;
-}
-.user-perfil {
-    width: 50%;
-}
-.user {
-    height: 70%;
-}
-h3 {
-    margin-bottom: 0;
-    margin-top: 0;
-    text-align: center;
-}
-.items {
-    text-align: center;
-}
-.item {
+.p1 {
     width: 12%;
-    display:inline-block;
-    margin: 1%;
+    display: inline-block;
+    margin-right: 1%;
+    position: relative;
+    top: 100px;
+    left: 20%;
 }
-.n, .t {
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 2%;
-}
-.n:nth-child(2) {
-    margin-right: 2%;
-}
-.imagenes {
-    margin-top: 4%;
-}
-.iconos {
-    padding-left: 0;
-    padding-right: 0; 
-}
-.llama {
-    width:60px;
-}
-.header button {
+.chat {
     background: #56bdab;
-}
-.header button:hover{
-    background: #fff;
-}
-.icon-bar {
+    text-align: center;
     color: #fff;
 }
-.stylo-nav {
-    margin-bottom: 0px;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-left-width: 0px;
-    border-top-width: 0px;
+/*-------  SECTION TODO APP ------*/
+.app{
+	margin-top: 20px;
 }
-.item-a:hover {
-    background: #fff;
+#title{
+	background-color: darkgray;
+	width: 100%;
+	text-align: center;
+	padding: 15px 0;
+	font-size: 30px;
+	font-family: fantasy;
+}
+textarea{
+	border-radius: 5px;
+	width: 90%;
+	margin: 20px auto;
+	display: block;
+}
+.new{
+	background-color: lightgray;
+	margin: 15px 0;
+	padding: 15px 40px 15px 15px;
+	width: 100%;
+	display: block;
+	height: auto;
+	word-wrap: break-word;
+	position: relative;
+	border-radius: 5px;
+}
+#container-to-do{
+	margin: 15px 0;
+}
+.labeled{
+	text-decoration:line-through;
+}
+.icon{
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 40%;
 }
 
-.navbar-default .navbar-nav>li>a{
-    color: #fff;
-}
-.navbar-default .navbar-nav>li>a:hover{
-   
-    background: #fff;
-}
-
-.imagen2 img {
-  width: 10%;
-  border-radius: 100%;
-  display: inline-block;  
-}
-header .stylo-nav {
-    display: block;
-}
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-.navbar-default .navbar-toggle {
-     border-color: white; 
-}
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #56bdab;
-}
-
-@media (min-width: 1200px){
-    .perfil-1 {
-        margin-top: 21%;
-    }
-}
-@media (min-width: 768px){
-    .perfil-1 {
-        margin-top: 27%;
-    }
-}
