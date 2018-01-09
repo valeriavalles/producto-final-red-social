@@ -1,13 +1,14 @@
 $(document).ready(function() {
 // Llamando las variables
-  var $name = $('#name');
-  var $pleasures = $('#pleasures');
-  var $email = $('#email');
-  var $password = $('#password')
+  var $name = $('#name');/*nombre*/
+  var $pleasures = $('#pleasures');/*gustos*/
+  var $email = $('#email');/*email*/
+  var $password = $('#password')/*contraseña*/
+  var $validate = $('#validate')
   var $checkbox = $(':checkbox');
   var $submit = $('.submit');
-
-// Obteniendo el contenido validando que sea letras maximo de 10
+  var registry = $('#registry');
+// Obteniendo el contenido validando que sea letras maximo de 10 solo escribir nombre(ej:alejandra)
 $name.on('input', function() {
   var PATTERNNAME = /^([A-z ñáéíóú]{2,10})$/;
     correctName = false;
@@ -19,7 +20,7 @@ $name.on('input', function() {
   }
 });
 
-// Obteniendo el contenido validando que sea letras maximo de 15
+// Obteniendo el contenido validando que sea letras maximo de 15 (ej:musica rock)
 $pleasures.on('input', function() {
   var PATTERNLASTNAME = /^([A-z ñáéíóú]{2,15})$/;
     correctPleasures = false;
@@ -55,6 +56,18 @@ $password.on('input', function() {
   }
 });
 
+// validacion del resto de los inputs
+$validate.on('input', function() {
+  var PATTERNNAME = /^[a-z\d\u00C0-\u00ff]+$/i;
+    correctValidate = false;
+  if (PATTERNNAME.test($(this).val())) {
+    correctValidate = true;
+     activeButton();
+  } else {
+     disabledButton();
+  }
+});
+
 // Validando que este maracado el checkbox
 $checkbox.on('click', function(event) {
    correctCheckbox = false;
@@ -68,9 +81,8 @@ $checkbox.on('click', function(event) {
 
 // Funcion que comprueba que habilita el boton
  function activeButton() {
-   if (correctName && correctPleasures && correctEmail && correctPassword && correctCheckbox) {
+   if (correctName && correctPleasures && correctEmail && correctPassword && correctValidate && correctCheckbox) {
      alert('Registro completado! \nDale click en REGISTRARSE y ya puedes INICIAR SESIÓN');
-     location.href = "../index.html";
     $submit.removeAttr('disabled');
   }
 }
@@ -78,5 +90,9 @@ $checkbox.on('click', function(event) {
  function disabledButton() {
    $submit.attr('disabled', 'disabled');
  }
+
+ /*registry.on('click', function() {
+    window.location.href = '../index.html';
+  });*/
 
 });
