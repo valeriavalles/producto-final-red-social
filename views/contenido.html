@@ -25,10 +25,10 @@
                         </div>
                         <div class="collapse navbar-collapse" id="navbar-1">
                             <ul class="nav navbar-nav  navbar-right">
-                                <li ><a href="#" class="imagen2 " >usuario </a></li>
-                                <li ><a href="#" class="imagen2 " > Notificaciones</a></li>
-                                <li ><a href="#" class="imagen2 " > Historias</a></li> 
-                                <li ><a href="#" class="imagen2 " > Salir</a></li> 
+                                <li ><a href="perfil.html" class="imagen2 " ><img src="../assets/images/usertwo.png" class="img-responsive visible-xs" alt="">usuario </a></li>
+                                <li ><a href="#" class="imagen2 " ><img src="../assets/images/campana.png" class="img-responsive visible-xs" alt=""> Notificaciones</a></li>
+                                <li ><a href="#" class="imagen2 " ><img src="../assets/images/mundo2.png"  class="img-responsive visible-xs" alt="mundo"> Historias</a></li> 
+                                <li ><a href="#" class="imagen2 " ><img src="../assets/images/salir.png"   class="img-responsive visible-xs">Salir</a></li> 
                             </ul>
                         </div>
                 </div>
@@ -46,7 +46,7 @@
                 <div class="post col-xs-12 col-sm-6 col-md-6">
                     <div class="post-1  col-xs-12">
                         <div class="cont-img-text col-xs-12">
-                            <div class="col-xs-4 col-sm-4"><img src="../assets/images/1.jpg" class="img-responsive p" alt="1"></div>
+                            <div class="col-xs-4 col-sm-4"><img src="../assets/images/user.png" class="img-responsive p" alt="1"></div>
                             <div class="col-xs-8 col-sm-8"><textarea id="textarea" class="form-control" cols="30" rows="4"></textarea></div>
                         </div>
                         <div class="cont-img-text col-xs-12">
@@ -65,7 +65,9 @@
                     <!--AQUI-->
                     <div class="post-1 col-xs-12">
                             <div class="cont-img-text col-xs-12">
-                                <div class="col-xs-4 col-sm-4"><img src="../assets/images/3.jpg" class="img-responsive p" alt="1"></div>
+                                <div class="col-xs-4 col-sm-4"><img src="../assets/images/3.jpg" class="img-responsive p" alt="1">
+                                <p class="text-center"><strong>Gustavo Lazo</strong></p>
+                                </div>
                                 <div class="col-xs-8 col-sm-8">
                                     <p>hoy es un excelente dia para comenzar de nuevo, buen dia ;)</p>
                                 </div>
@@ -83,7 +85,9 @@
                         </div>
                         <div class="post-1 col-xs-12">
                                 <div class="cont-img-text col-xs-12">
-                                    <div class="col-xs-4 col-sm-4"><img src="../assets/images/2.jpg" class="img-responsive p" alt="1"></div>
+                                    <div class="col-xs-4 col-sm-4"><img src="../assets/images/2.jpg" class="img-responsive p" alt="1">
+                                    <p class="text-center"><strong>Antonella Leon</strong></p>
+                                    </div>
                                     <div class="col-xs-8 col-sm-8">
                                         <h5>Viajando por el Mundo</h5>
                                         <img src="../assets/images/viajero1.jpg" class="img-responsive" alt="">
@@ -102,7 +106,9 @@
                             </div>
                             <div class="post-1 col-xs-12">
                                     <div class="cont-img-text col-xs-12">
-                                        <div class="col-xs-4 col-sm-4"><img src="../assets/images/4.jpg" class="img-responsive p" alt="1"></div>
+                                        <div class="col-xs-4 col-sm-4"><img src="../assets/images/4.jpg" class="img-responsive p" alt="1">
+                                        <p class="text-center"><strong>Antonio Fernandez</strong></p>
+                                        </div>
                                         <div class="col-xs-8 col-sm-8">
                                             <h4>Excellent song <span><i class="glyphicon glyphicon-music"></i></span></h4>
                                            <img src="../assets/images/video.jpg" class="img-responsive" alt="video">
@@ -123,25 +129,50 @@
                 <div class="post col-xs-12 col-sm-5 col-md-5">
                     <div class="mapa">
                         <h2>Amigos cerca de Ti </h2>
-                        <div class="fondo-mapa">
-                            <img src="../assets/images/1.jpg" class="img-responsive p1" alt="1">
-                            <img src="../assets/images/2.jpg" class="img-responsive p1" alt="2">
-                            <img src="../assets/images/3.jpg" class="img-responsive p1" alt="3">
-                            <img src="../assets/images/4.jpg" class="img-responsive p1" alt="4">
-                            
-                        </div>
+                        
+                                <div class="fondo-mapa">
+                                        <img src="../assets/images/1.jpg" class="img-responsive img-map1 img-map" data-target="#miventana" data-toggle="modal" alt="1">
+                                        <img src="../assets/images/2.jpg" class="img-responsive img-map2 img-map" data-target="#miventana" data-toggle="modal" alt="2">
+                                        <img src="../assets/images/3.jpg" class="img-responsive img-map3 img-map" data-target="#miventana" data-toggle="modal" alt="3">
+                                        <img src="../assets/images/4.jpg" class="img-responsive img-map4 img-map" data-target="#miventana" data-toggle="modal" alt="4">
+                                        <img src="../assets/images/5.jpg" class="img-responsive img-map5 img-map" data-target="#miventana" data-toggle="modal" alt="5">
+                                        <img src="../assets/images/6.jpg" class="img-responsive img-map6 img-map" data-target="#miventana" data-toggle="modal" alt="6">
+                                    </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
-    <section class="app">
-                 
-                     <!--    <textarea class="form-control" id="textarea"></textarea>
-                          <button id="btn" type="submit" class="btn btn-primary"> + Añadir tarea</button>
-                          <div id="container-to-do"></div>-->
-
+    <!--********************* MODAL *******************-->
+    <section>
+            <div class="modal fade" id="miventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            </div>
+                            <div class="container">
+                                <div class="col-xs-5 col-sm-4 col-md-4 col-lg-6">
+                                    <img src="../assets/images/usertwo.png" class="img-responsive mod-imag" alt="">
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-5">
+                                    <h4><strong>Nombre Apellido</strong></h4>
+                                    <h5>Ciudad</h5>
+                                    <h5><i class="glyphicon glyphicon-heart"></i>Mis Gustos</h5>
+                                    <h5><i class="glyphicon glyphicon-envelope"></i>correo@gmail.com</h5>
+                                    <h5><span><i class="glyphicon glyphicon-globe"></i>www.Developer.com</span></h5>
+                                    <h5><strong>Cerca de ti a 20 minutos</strong> </h5>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-info">Seguir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+            </section>
     </section>
     <footer class="col-xs-4">
             <div class="chat navbar-fixed-bottom  col-xs-4 col-sm-2 col-md-2 col-lg-2 ">
