@@ -1,59 +1,31 @@
-/*------------ FUNCIONALIDAD PARA POSTEAR ---------*/
+/* ------------ FUNCIONALIDAD PARA POSTEAR ---------*/
 $(document).ready(function() {
-    var btn = $('#btn-publicar');
-		// btn.prop("disabled", true);
-	var textarea = $('#textarea');
-	
-	textarea.keyup(function(e){
-		validation();
-	});
-	
-	function validation(){
-		var long = textarea.val().length;
-		var onlyText = textarea.val().replace(/\s/g,'');
-		if (long == 0 || onlyText == 0) {
-		//	btn.removeAttr('disabled');
-		}
-		else {
-		//	 btn.prop("disabled", true);
-		}
-	}
-	btn.click(function() {
-		newCont();
-		textarea.val('');
-		//  btn.prop("disabled", true);
-	});
-	function newCont() {
-		var textContent = textarea.val();
-		var containerToDo = $('#content-post');
-    	var newTask = $('<div>');
-		newTask.addClass('stylo-cont');
-		containerToDo.append(newTask);
-		var label = $('<div>');
-		newTask.append(label);
-		var text = $(document.createTextNode(textContent));
-		label.append(text);
-		var icon = $('<i>');
-		icon.addClass('glyphicon glyphicon-trash icon');
-		newTask.append(icon);
-    
-    textarea.val('');
+  $('#btn-publicar').attr('disabled', true);
+  $('#textarea-publicar').keyup(function() {
+    $('#btn-publicar').attr('disabled', false);
+    var rest = '';
+    var letters = $('#textarea-publicar').val().length;
+  
+  });
 
-		check.click(function() {
-			labeledTask();
-		});
-		function labeledTask(){
-			label.toggleClass('labeled');
-		}
-		icon.click( function() {
-			deleteTask();
-    });
-    
-		function deleteTask(){
-			newTask.remove()
-		}
-	}
+  $('#btn-publicar').click(function() {
+    if ($('#textarea-publicar').val().length > 0) {
+      var storyDiv = $('<div>', {'class': 'stylo-cont' });
+      var container = $('<p>');
+     
+      var text = $('#textarea-publicar').val();
+      storyDiv.text(text);
+	  storyDiv.append(container);
+	  $('#content-post').append(storyDiv);
+      $('#textarea-publicar').val('');
+      $('#btn-publicar').attr('disabled', true);
+      $('#textarea-publicar').css('initial');
+    } else {
+      $('#btn-publicar').attr('disabled', true);
+    }
+  });
 });
-/* -----------  Fin ---------*/
+
+/* -----------  Fin FUNCIONALIDAD PARA POSTEAR---------*/
 
    
