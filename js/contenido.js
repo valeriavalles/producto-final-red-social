@@ -26,5 +26,11 @@ $(document).ready(function() {
 
 /* -----------  Fin FUNCIONALIDAD PARA POSTEAR---------*/
 /* ------------ FUNCIONALIDAD PARA SUBIR FOTOS ------------*/
+/** Función para postear  */
+$('#photobtn').click(function(){
+	var photo = $(#urlInput).val();
 
-   
+	$('#urlInput').val('');
+
+	var contenedor = $('')
+});   
