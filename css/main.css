@@ -1,3 +1,4 @@
+/* ------------ INICIO - ESTILOS DE VISTA PRINCIPAL----------*/
 body {
   font-family: 'Acme', sans-serif;
 }
@@ -34,6 +35,8 @@ body {
     background: transparent;
     color: #fff;
 }
+/* ------------ FIN - ESTILOS DE VISTA PRINCIPAL----------*/
+/* ------------ INICIO - ESTILOS DE REGISTRO----------*/
 /*Estilos vista registro*/
 .registry, .log-in {
   margin-bottom: 1rem;
@@ -60,6 +63,8 @@ body {
   background-color: #f84d00;
   color: #fff;
 }
+/* ------------ FIN - ESTILOS DE VISTA REGISTRO ----------*/
+/* ------------ INICIO - ESTILOS DE INICIO DE SESION ----------*/
 /*imagen ingrese con facebook,etc..*/
 .img-login {
   width: 3rem;
@@ -74,10 +79,7 @@ body {
   margin-bottom: 0.5rem;
   border: 0.2rem solid #eaeaea;
 }
-/*boton gmail*/
-/*.btn-gmail {
-  color: #d54b3d;
-}*/
+
 /*boton mesengr*/
 .btn-twitter {
   color: #55acee;
@@ -91,7 +93,9 @@ body {
   color: #56bdab;
   margin-bottom: 3rem;
 }
-/*media queries */
+/* ------------ FIN - ESTILOS DE VISTA INICIO DE SESION ----------*/
+
+/*---------------------------MEDIA QUERIES-------------------------*/
 /*tablet-responsive*/
 @media (min-width: 768px) {
   .main-page h1 {

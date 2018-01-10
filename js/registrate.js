@@ -1,3 +1,4 @@
+/* ------------ FUNCIONALIDAD/REGISTRATE.JS----------*/
 $(document).ready(function() {
 // Llamando las variables
   var $pleasures = $('#pleasures'); /* gustos*/
