@@ -1,18 +1,16 @@
-/* ------------ FUNCIONALIDAD PARA POSTEAR ---------*/
+/* ------------ FUNCIONALIDAD PARA POSTEAR(En proceso de mejora) ---------*/
 $(document).ready(function() {
   $('#btn-publicar').attr('disabled', true);
   $('#textarea-publicar').keyup(function() {
     $('#btn-publicar').attr('disabled', false);
     var rest = '';
     var letters = $('#textarea-publicar').val().length;
-  
   });
 
   $('#btn-publicar').click(function() {
     if ($('#textarea-publicar').val().length > 0) {
       var storyDiv = $('<div>', {'class': 'stylo-cont' });
       var container = $('<p>');
-     
       var text = $('#textarea-publicar').val();
       storyDiv.text(text);
 	  storyDiv.append(container);
@@ -27,5 +25,6 @@ $(document).ready(function() {
 });
 
 /* -----------  Fin FUNCIONALIDAD PARA POSTEAR---------*/
+/* ------------ FUNCIONALIDAD PARA SUBIR FOTOS ------------*/
 
    

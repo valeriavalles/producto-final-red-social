@@ -180,6 +180,9 @@ textarea {
     .cont-slider {
         margin-top: 12rem;
     }
+    .mod-imag {
+        width: 50%;
+    }
 }
 /*------ FIN PERFIL.HTML--------*/
 
@@ -188,7 +191,7 @@ textarea {
 	background-color: #fff;
 	margin: 15px 0;
 	padding: 15px 40px 15px 15px;
-	width: 100%;
+	width: 110%;
 	display: block;
 	height: auto;
 	word-wrap: break-word;
