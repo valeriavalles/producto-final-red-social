@@ -19,3 +19,5 @@ En el siguiente trabajo se realizó una web-app responsive con motivos peruanos 
 ## INTEGRANTES  
 Alejandra Hoces.  
 Valeria Valles.
+
+**Organización**
