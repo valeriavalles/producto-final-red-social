@@ -93,9 +93,85 @@ textarea {
     color: #fff;
     text-decoration: none;
 }
+/*-------- VISTA PERFIL.HTML -------*/
+.per-cont {
+    outline: 1px solid red;
+    position: absolute;
+    top: 25%;
+    padding: 0;
+    display: inline-block;
+    margin-left: 12%;
+    
+}
+.img-perfil {
+    text-align: center;
+}
+.item {
+    width: 18%;
+    display:inline-block;
+    margin: 1%;
+    margin-right: 0.6rem;
+    background: #56bdab;
+    border-radius: 100%;
+}
+
+.post-2 {
+    position: absolute;
+    top: 20%;
+}
+.postear-text {
+    margin-top: 60%;
+    margin-left: 6%;
+}
+.cont-slider {
+    outline: 1px solid red;
+    margin-top: 4%;
+}
+.cont-slider img {
+    outline: 1px solid blue;
+    
+    margin:1%;
+    margin-right: 5%;
+}
+.cont-slider img:nth-child(2) {
+    margin-right:4%; 
+}
+.icon-left-right {
+    position: relative;
+    top: 5rem;
+}
+.img-slider {
+    outline: 1px solid black;
+}
+.iconos span {
+    margin-right: 0.7rem;
+}
+@media (min-width: 768px){
+    .per-cont {
+        position: absolute;
+        top: 52%;
+        margin-left: 6%;
+    }
+    .postear-text {
+       margin-top: 0;
+         margin-left: 50%;
+    }
+    .pod {
+        margin-top: 5%;
+    }
+    .icon-left-right {
+        position: relative;
+        top: 15rem;
+    }
+    
+}
+@media (min-width: 1024px){
+    .cont-slider {
+        margin-top: 12rem;
+    }
+}
+
 /*-------  SECTION TODO APP ------*/
-
-
 .new{
 	background-color: #fff;
 	margin: 15px 0;
