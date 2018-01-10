@@ -1,0 +1,359 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+    font-family: 'Acme', sans-serif;
+}
+
+.bg-contenido, .bg-perfil {
+    background: #dfdce3;
+}
+/*------VISTA CONTENIDO.HTML------*/
+
+/*-----HEADER----*/
+.nav-header, 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background:#56bdab; 
+}
+.navbar-default {
+    border: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+} 
+.navbar-default .navbar-toggle .icon-bar {
+    background: #fff;
+}
+/*--- SECTION FONDO --*/  
+.fondo-contenido {
+    background: url('../assets/images/paisaje.jpg')
+                center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:50vh ;
+}
+.imagen2 img {
+    width: 10%;
+    display: inline-block;
+}
+/*---- SECTION POST ----*/
+
+.cont-img-text {
+    padding: 1%;
+    margin: 2%;
+    border-radius: 5px;
+    border: 1px solid #dfdce3;
+    overflow: hidden;
+}
+.p {
+    border-radius: 100%;
+}
+.post {
+    margin-top: 3%; 
+    margin-right: 2%;
+    
+}
+.post-1 {
+    margin-top: 4%;
+    border-radius: 12px;
+    background: #fff;
+}
+.post:nth-child(2) {
+    margin-right: 2%;
+}
+.boton {
+   width: 85%;
+   background: #56bdab;
+   color: #fff;
+}
+textarea {
+    width: 100%;
+    resize: none;
+    outline: none;
+    
+}
+/*--------- MAPA ----*/
+.fondo-mapa {
+    background: url('../assets/images/mapa.jpg')
+                center no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height:60vh ;
+}
+.mapa {
+    background: #fff;
+    border-radius: 7px;
+    padding: 4%;
+    text-align: center;
+}
+
+.img-map {
+    width: 20%;
+    display: inline-block;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    top: 100px;
+    left: 6%;
+    border-radius: 100%;
+}
+
+.img-map5 {
+  margin-top: 10%;
+}
+.chat {
+    background: #56bdab;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    left: 72%;
+}
+.chat a {
+    color: #fff;
+    text-decoration: none;
+}
+/*-------- VISTA PERFIL.HTML -------*/
+.per-cont {
+    position: absolute;
+    top: 25%;
+    padding: 0;
+    display: inline-block;
+    margin-left: 12%;
+    
+}
+.img-perfil {
+    text-align: center;
+}
+.item {
+    width: 18%;
+    display:inline-block;
+    margin: 1%;
+    margin-right: 0.6rem;
+    background: #56bdab;
+    border-radius: 100%;
+}
+
+.postear-text {
+    margin-top: 60%;
+    margin-left: 6%;
+}
+.cont-slider {
+    margin-top: 4%;
+}
+.cont-slider img {
+    margin:1%;
+    margin-right: 5%;
+}
+.cont-slider img:nth-child(2) {
+    margin-right:4%; 
+}
+.icon-left-right {
+    position: relative;
+    top: 5rem;
+}
+
+.iconos span {
+    margin-right: 0.7rem;
+}
+@media (min-width: 768px){
+    .per-cont {
+        position: absolute;
+        top: 52%;
+        margin-left: 6%;
+    }
+    .postear-text {
+       margin-top: 0;
+         margin-left: 50%;
+    }
+    .pod {
+        margin-top: 5%;
+    }
+    .icon-left-right {
+        position: relative;
+        top: 15rem;
+    }
+    
+}
+@media (min-width: 1024px){
+    .cont-slider {
+        margin-top: 12rem;
+    }
+}
+/*------ FIN PERFIL.HTML--------*/
+
+/*-------  SECTION TODO APP ------*/
+.stylo-cont{
+	background-color: #fff;
+	margin: 15px 0;
+	padding: 15px 40px 15px 15px;
+	width: 100%;
+	display: block;
+	height: auto;
+	word-wrap: break-word;
+	position: relative;
+	border-radius: 5px;
+}
+#container-to-do{
+	margin: 15px 0;
+}
+.labeled{
+	text-decoration:line-through;
+}
+.icon{
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 40%;
+}
+/*---------------
+/* ------------ INICIO - ESTILOS DE VISTA PRINCIPAL----------*/
+/*Estilos vista principal*/
+.main-page h1 {
+  font-size: 6.1rem;
+  color: #56bdab;
+}
+
+.about-us {
+  font-size: 1.7rem;
+  color: #fff;
+}
+.language {
+  margin-top: 4rem;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: underline;
+}
+.main-page{
+    background: url(../assets/images/fondoviru.jpg) no-repeat center center;
+    background-size: cover;
+    max-width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.main-page .btn-lg{
+    margin: 1rem;
+    border: 0.2rem solid #fff;
+    background: transparent;
+    color: #fff;
+}
+/* ------------ FIN - ESTILOS DE VISTA PRINCIPAL----------*/
+/* ------------ INICIO - ESTILOS DE REGISTRO----------*/
+/*Estilos vista registro*/
+.registry, .log-in {
+  margin-bottom: 1rem;
+  padding-top:0.5rem;
+}
+
+.registry a, .log-in a {
+  color: #56bdab;
+}
+
+.title-registry, .log-in {
+  color: #f84d00;
+}
+
+/*boton de "Atrás"*/
+.registry-paragraph {
+  margin-left: 0.5rem;
+}
+.login-paragraph {
+  margin-left: 0.6rem;
+}
+/*Estilos vista inicio de sesion*/
+.submit {
+  background-color: #f84d00;
+  color: #fff;
+}
+/* ------------ FIN - ESTILOS DE VISTA REGISTRO ----------*/
+/* ------------ INICIO - ESTILOS DE INICIO DE SESION ----------*/
+/*imagen ingrese con facebook,etc..*/
+.img-login {
+  width: 3rem;
+  display: inline-block;
+}
+.password {
+  margin-bottom: 18rem;
+}
+
+.btn-gmail, .btn-twitter, .btn-fb, .btn-Universdd {
+  width: 16rem;
+  margin-bottom: 0.5rem;
+  border: 0.2rem solid #eaeaea;
+}
+
+/*boton mesengr*/
+.btn-twitter {
+  color: #55acee;
+}
+/*btn-facebook*/
+.btn-fb {
+  color: #3b579d;
+}
+/*btn-Universidad*/
+.btn-Universdd {
+  color: #56bdab;
+  margin-bottom: 3rem;
+}
+/* ------------ FIN - ESTILOS DE VISTA INICIO DE SESION ----------*/
+
+/*---------------------------MEDIA QUERIES-------------------------*/
+/*tablet-responsive*/
+@media (min-width: 768px) {
+  .main-page h1 {
+    font-size: 8rem;
+    color: #56bdab;
+  }
+  .title-registry{
+    font-size: 4.5rem;
+  }
+  .registry-paragraph {
+    font-size: 1.8rem;
+    margin-left: 2.8rem;
+  }
+  .title-log-in {
+    font-size: 4.5rem;
+  }
+  .login-paragraph {
+    font-size: 1.8rem;
+    margin-left: 2.8rem;
+  }
+}
+/*desktop-responsive*/
+@media (min-width: 1200px) {
+  .main-page h1 {
+    font-size: 11rem;
+    color: #56bdab;
+  }
+  .title-registry{
+    font-size: 5rem;
+  }
+  .registry-paragraph {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  .title-log-in {
+    font-size: 5rem;
+  }
+  .login-paragraph {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  .btn-gmail, .btn-twitter, .btn-fb, .btn-Universdd {
+    width: 21rem;
+    margin-bottom: 2rem;
+    border: 0.2rem solid #eaeaea;
+  }
+  .about-us {
+    font-size: 2.2rem;
+    color: #fff;
+  }
+  .language {
+    font-size: 1.8rem;
+  }
+}
