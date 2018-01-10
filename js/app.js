@@ -9,9 +9,10 @@
  };
  firebase.initializeApp(config);
 
- /** Función para crear registro de usuario en Firebase*/
-
- function registrar(){
+ /* Función para crear registro de usuario en Firebase*/
+var submit = document.getElementById('btnsubmit');
+if(submit){
+submit.addEventListener("click", function(){
    var email= document.getElementById('email').value;
    var password= document.getElementById('password').value;
 
@@ -25,15 +26,16 @@
      // ...
      alert(errorMessage)
    });
- }
+ });
+};
 
- /** Función para identificar sign in en Firebase. */
-
- function ingreso(){
+/* Función para identificar sign in en Firebase.*/
+ function login(){
    var email2= document.getElementById('email2').value;
    var password2= document.getElementById('password2').value;
    firebase.auth().signInWithEmailAndPassword(email2, password2).then(()=>{
-     location.reload();
+     /*location.reload();*/
+     location.href = '../views/contenido.html';
    }).catch(function(error) {
      /** Handle Errors here. */
      var errorCode = error.code;
@@ -41,16 +43,16 @@
      alert(errorMessage);
      // ...
    });
- }
+ };
 
- /** Función de Firebase que observa qué sucede con el usuario, si se conectó o no, si existe verificación del email, etc. */
+ /* Función de Firebase que observa qué sucede con el usuario, si se conectó o no, si existe verificación del email, etc. */
 
  function observador(){
    firebase.auth().onAuthStateChanged(function(user) {
      if (user) {
-       aparece();
+       /*aparece();*/
        console.log('existe usuario activo')
-       useractive();
+       /*useractive();*/
        // User is signed in.
        var displayName = user.displayName;
        var email = user.email;
@@ -66,5 +68,4 @@
      }
    });
  }
-
  observador();

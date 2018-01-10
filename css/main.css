@@ -7,11 +7,16 @@ body {
   color: #56bdab;
 }
 
-.main-page p {
+.about-us {
   font-size: 1.7rem;
   color: #fff;
 }
-
+.language {
+  margin-top: 4rem;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: underline;
+}
 .main-page{
     background: url(../assets/images/fondoviru.jpg) no-repeat center center;
     background-size: cover;
@@ -133,8 +138,11 @@ body {
     margin-bottom: 2rem;
     border: 0.2rem solid #eaeaea;
   }
-  .main-page p {
+  .about-us {
     font-size: 2.2rem;
     color: #fff;
+  }
+  .language {
+    font-size: 1.8rem;
   }
 }
