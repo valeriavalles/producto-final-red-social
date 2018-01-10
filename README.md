@@ -16,3 +16,6 @@ En el siguiente trabajo se realizó una web-app responsive con motivos peruanos 
 - JQUERY  
 - JS VANILLA  
 - FIREBASE
+## INTEGRANTES  
+Alejandra Hoces.  
+Valeria Valles.
