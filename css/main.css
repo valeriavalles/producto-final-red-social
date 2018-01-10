@@ -4,6 +4,10 @@ margin: 0;
 box-sizing: border-box;
 }
 body {
+    font-family: 'Acme', sans-serif;
+}
+
+.bg-contenido, .bg-perfil {
     background: #dfdce3;
 }
 /*------VISTA CONTENIDO.HTML------*/
@@ -204,4 +208,152 @@ textarea {
 	top: 40%;
 }
 /*---------------
+/* ------------ INICIO - ESTILOS DE VISTA PRINCIPAL----------*/
+/*Estilos vista principal*/
+.main-page h1 {
+  font-size: 6.1rem;
+  color: #56bdab;
+}
 
+.about-us {
+  font-size: 1.7rem;
+  color: #fff;
+}
+.language {
+  margin-top: 4rem;
+  font-size: 1.4rem;
+  color: #fff;
+  text-decoration: underline;
+}
+.main-page{
+    background: url(../assets/images/fondoviru.jpg) no-repeat center center;
+    background-size: cover;
+    max-width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.main-page .btn-lg{
+    margin: 1rem;
+    border: 0.2rem solid #fff;
+    background: transparent;
+    color: #fff;
+}
+/* ------------ FIN - ESTILOS DE VISTA PRINCIPAL----------*/
+/* ------------ INICIO - ESTILOS DE REGISTRO----------*/
+/*Estilos vista registro*/
+.registry, .log-in {
+  margin-bottom: 1rem;
+  padding-top:0.5rem;
+}
+
+.registry a, .log-in a {
+  color: #56bdab;
+}
+
+.title-registry, .log-in {
+  color: #f84d00;
+}
+
+/*boton de "Atrás"*/
+.registry-paragraph {
+  margin-left: 0.5rem;
+}
+.login-paragraph {
+  margin-left: 0.6rem;
+}
+/*Estilos vista inicio de sesion*/
+.submit {
+  background-color: #f84d00;
+  color: #fff;
+}
+/* ------------ FIN - ESTILOS DE VISTA REGISTRO ----------*/
+/* ------------ INICIO - ESTILOS DE INICIO DE SESION ----------*/
+/*imagen ingrese con facebook,etc..*/
+.img-login {
+  width: 3rem;
+  display: inline-block;
+}
+.password {
+  margin-bottom: 18rem;
+}
+
+.btn-gmail, .btn-twitter, .btn-fb, .btn-Universdd {
+  width: 16rem;
+  margin-bottom: 0.5rem;
+  border: 0.2rem solid #eaeaea;
+}
+
+/*boton mesengr*/
+.btn-twitter {
+  color: #55acee;
+}
+/*btn-facebook*/
+.btn-fb {
+  color: #3b579d;
+}
+/*btn-Universidad*/
+.btn-Universdd {
+  color: #56bdab;
+  margin-bottom: 3rem;
+}
+/* ------------ FIN - ESTILOS DE VISTA INICIO DE SESION ----------*/
+
+/*---------------------------MEDIA QUERIES-------------------------*/
+/*tablet-responsive*/
+@media (min-width: 768px) {
+  .main-page h1 {
+    font-size: 8rem;
+    color: #56bdab;
+  }
+  .title-registry{
+    font-size: 4.5rem;
+  }
+  .registry-paragraph {
+    font-size: 1.8rem;
+    margin-left: 2.8rem;
+  }
+  .title-log-in {
+    font-size: 4.5rem;
+  }
+  .login-paragraph {
+    font-size: 1.8rem;
+    margin-left: 2.8rem;
+  }
+}
+/*desktop-responsive*/
+@media (min-width: 1200px) {
+  .main-page h1 {
+    font-size: 11rem;
+    color: #56bdab;
+  }
+  .title-registry{
+    font-size: 5rem;
+  }
+  .registry-paragraph {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  .title-log-in {
+    font-size: 5rem;
+  }
+  .login-paragraph {
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+  .btn-gmail, .btn-twitter, .btn-fb, .btn-Universdd {
+    width: 21rem;
+    margin-bottom: 2rem;
+    border: 0.2rem solid #eaeaea;
+  }
+  .about-us {
+    font-size: 2.2rem;
+    color: #fff;
+  }
+  .language {
+    font-size: 1.8rem;
+  }
+}
