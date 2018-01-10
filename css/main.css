@@ -6,6 +6,8 @@ box-sizing: border-box;
 body {
     background: #dfdce3;
 }
+/*------VISTA CONTENIDO.HTML------*/
+
 /*-----HEADER----*/
 .nav-header, 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -82,15 +84,7 @@ textarea {
     padding: 4%;
     text-align: center;
 }
-/*.p1 {
-    width: 12%;
-    display: inline-block;
-    margin-right: 1%;
-    position: relative;
-    top: 100px;
-    left: 20%;
-    border-radius: 100%;
-}*/
+
 .img-map {
     width: 20%;
     display: inline-block;
@@ -137,10 +131,6 @@ textarea {
     border-radius: 100%;
 }
 
-/*.post-2 {
-    position: absolute;
-    top: 20%;
-}*/ 
 .postear-text {
     margin-top: 60%;
     margin-left: 6%;
@@ -187,6 +177,7 @@ textarea {
         margin-top: 12rem;
     }
 }
+/*------ FIN PERFIL.HTML--------*/
 
 /*-------  SECTION TODO APP ------*/
 .new{
@@ -212,4 +203,5 @@ textarea {
 	right: 10px;
 	top: 40%;
 }
+/*---------------
 

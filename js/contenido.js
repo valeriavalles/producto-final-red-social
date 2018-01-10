@@ -1,3 +1,4 @@
+/*------------ FUNCIONALIDAD PARA POSTEAR ---------*/
 $(document).ready(function() {
     var btn = $('#btn-publicar');
 		// btn.prop("disabled", true);
@@ -18,15 +19,15 @@ $(document).ready(function() {
 		}
 	}
 	btn.click(function() {
-		addTask();
+		newCont();
 		textarea.val('');
 		//  btn.prop("disabled", true);
 	});
-	function addTask() {
+	function newCont() {
 		var textContent = textarea.val();
 		var containerToDo = $('#content-post');
     	var newTask = $('<div>');
-		newTask.addClass('new');
+		newTask.addClass('stylo-cont');
 		containerToDo.append(newTask);
 		var label = $('<div>');
 		newTask.append(label);
@@ -53,5 +54,6 @@ $(document).ready(function() {
 		}
 	}
 });
+/* -----------  Fin ---------*/
 
    
