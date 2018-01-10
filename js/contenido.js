@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var btn = $('#btn');
+    var btn = $('#btn-publicar');
 		// btn.prop("disabled", true);
 	var textarea = $('#textarea');
 	
@@ -23,24 +23,20 @@ $(document).ready(function() {
 		//  btn.prop("disabled", true);
 	});
 	function addTask() {
-		var taskContent = textarea.val();
-		var containerToDo = $('#container-to-do');
-    var newTask = $('<div>');
+		var textContent = textarea.val();
+		var containerToDo = $('#content-post');
+    	var newTask = $('<div>');
 		newTask.addClass('new');
-		newTask.addClass('checkbox');
 		containerToDo.append(newTask);
-		var label = $('<label>');
-		var check = $('<input>');
-		check.attr('type','checkbox');
-		label.append(check);
+		var label = $('<div>');
 		newTask.append(label);
-		var text = $(document.createTextNode(taskContent));
+		var text = $(document.createTextNode(textContent));
 		label.append(text);
 		var icon = $('<i>');
 		icon.addClass('glyphicon glyphicon-trash icon');
 		newTask.append(icon);
     
-    textarea.val('')
+    textarea.val('');
 
 		check.click(function() {
 			labeledTask();

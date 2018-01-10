@@ -28,19 +28,23 @@ body {
 /*---- SECTION POST ----*/
 
 .cont-img-text {
-    outline: 1px solid black;
     padding: 1%;
     margin: 2%;
+    border-radius: 5px;
+    border: 1px solid #dfdce3;
     overflow: hidden;
 }
+.p {
+    border-radius: 100%;
+}
 .post {
-    margin-top: 2%; 
-    outline: 1px solid red;
+    margin-top: 3%; 
     margin-right: 2%;
+    
 }
 .post-1 {
-    outline: 1px solid green;
     margin-top: 4%;
+    border-radius: 12px;
     background: #fff;
 }
 .post:nth-child(2) {
@@ -61,12 +65,13 @@ textarea {
                 center no-repeat;
     background-size: cover;
     width: 100%;
-    min-height:40vh ;
+    min-height:60vh ;
 }
 .mapa {
-    outline: 1px solid blue;
     background: #fff;
+    border-radius: 7px;
     padding: 4%;
+    text-align: center;
 }
 .p1 {
     width: 12%;
@@ -75,32 +80,24 @@ textarea {
     position: relative;
     top: 100px;
     left: 20%;
+    border-radius: 100%;
 }
 .chat {
     background: #56bdab;
     text-align: center;
     color: #fff;
+    border-radius: 5px;
+    left: 72%;
+}
+.chat a {
+    color: #fff;
+    text-decoration: none;
 }
 /*-------  SECTION TODO APP ------*/
-.app{
-	margin-top: 20px;
-}
-#title{
-	background-color: darkgray;
-	width: 100%;
-	text-align: center;
-	padding: 15px 0;
-	font-size: 30px;
-	font-family: fantasy;
-}
-textarea{
-	border-radius: 5px;
-	width: 90%;
-	margin: 20px auto;
-	display: block;
-}
+
+
 .new{
-	background-color: lightgray;
+	background-color: #fff;
 	margin: 15px 0;
 	padding: 15px 40px 15px 15px;
 	width: 100%;
