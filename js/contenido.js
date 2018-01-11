@@ -43,6 +43,22 @@ $(document).ready(function() {
 });
 
 /* -----------  Fin FUNCIONALIDAD PARA POSTEAR---------*/
+
+// Funcionalidad para postear en pocas líneas --------------------------------------------------------------------------------------------
+
+  $('#btn-publicar').click(function() {
+    if ($('#textarea-publicar').val().length > 0) {
+      var text = $('#textarea-publicar').val();
+      $('#content-post').prepend('<div class="stylo-cont">'+text+'</div>');
+$('#textarea-publicar').val('');
+    } else {
+      $('#btn-publicar').attr('disabled', true);
+    }
+  });
+
+///--------------------------------------------------------------------------------------------------- 
+
+
 /* ------------ FUNCIONALIDAD PARA SUBIR FOTOS ------------*/
 /** Función para postear  */
 /* $('#photobtn').click(function(){
