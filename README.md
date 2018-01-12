@@ -21,3 +21,15 @@ Alejandra Hoces.
 Valeria Valles.
 
 **Organización**
+
+ #### Vistas de la aplicacion
+
+> vistas/inicio
+
+![ Texto alter](assets/images/pantalla1.PNG)
+![ Texto alter](assets/images/vista2.PNG)
+
+> Vista principal
+
+![ Texto alter](assets/images/vista3.PNG)
+![ Texto alter](assets/images/vista4.PNG)
