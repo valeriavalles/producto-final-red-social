@@ -20,7 +20,9 @@ En el siguiente trabajo se realizó una web-app responsive con motivos peruanos 
 Alejandra Hoces.  
 Valeria Valles.
 
-**Organización**
+**Organización**  
+
+[Proyecto final Red Social](https://trello.com/b/IRfVnxbQ/producto-final-redes-sociales)
 
  #### Vistas de la aplicacion
 

@@ -44,7 +44,7 @@ $(document).ready(function() {
       $imgUserPostClonado = $postclonado.find('#user').removeAttr('id');
       $imgUserPostClonado.attr('id', 'user-new');
       $imgUserPostClonado.attr('src', '../assets/images/user.png');
-      $nameUserPostClonado = $postclonado.find('#name-user').text('Alejandra Hoces');
+      $nameUserPostClonado = $postclonado.find('#name-user').text('');
 
       $('#content-post').prepend($postclonado);
       $('#textarea-publicar').val('');
