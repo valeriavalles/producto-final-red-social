@@ -41,109 +41,158 @@
     </section>
     <!--*********** SECTION PARA POSTEAR *********** -->
     <section>
-        <div class="container">
-            <div class="row col-xs-12 col-sm-12 col-md-12">
-                <div class="post col-xs-12 col-sm-6 col-md-6">
-                    <div class="post-1  col-xs-12">
-                        <div class="cont-img-text col-xs-12">
-                            <div class="col-xs-4 col-sm-4"><img src="../assets/images/user.png" class="img-responsive p" alt="1"></div>
-                            <div class="col-xs-8 col-sm-8"><textarea id="textarea-publicar" class="form-control" cols="30" rows="4"></textarea></div>
-                        </div>
-                        <div class="cont-img-text col-xs-12">
+            <div class="container">
+                    <div class="row col-xs-12 col-sm-12 col-md-12">
+                      <div class="post col-xs-12 col-sm-6 col-md-6">
+                        <div class="post-1  col-xs-12">
+                          <div class="cont-img-text col-xs-12">
+                            <div class="col-xs-4 col-sm-4">
+                              <img src="../assets/images/user.png" class="img-responsive p" alt="1">
+                            </div>
+                            <div class="col-xs-8 col-sm-8">
+                              <textarea id="textarea-publicar" class="form-control" cols="30" rows="4"></textarea>
+                            </div>
+                          </div>
+                          <div class="cont-img-text col-xs-12">
                             <div class="iconos col-xs-6">
-                                <span><i class="glyphicon glyphicon-camera"></i></span>
-                                <span><i class="glyphicon glyphicon-paperclip"></i></span>
-                                <span><i class="icon-emoji-happy"></i></span>
+                              <span>
+                                <i class="glyphicon glyphicon-camera"></i>
+                              </span>
+                              <span>
+                                <i class="glyphicon glyphicon-paperclip"></i>
+                              </span>
+                              <span>
+                                <i class="icon-emoji-happy"></i>
+                              </span>
                             </div>
                             <div class="cont-btn col-xs-6">
-                                    <button class="btn boton" type="button" id="btn-publicar">Publicar</button>  
+                              <button class="btn boton" type="button" id="btn-publicar">Publicar</button>
                               <!--  <input type="button" class="btn boton" id="btn-publicar" value="Publicar" disabled="disabled">-->
                             </div>
+                          </div>
                         </div>
-                    </div>
-                    <!--AQUI-->
-                    <div id="content-post" class="col-xs-12 col-sm-12 col-md-10"></div>
-                    <!--AQUI-->
-                    <div class="post-1 col-xs-12">
-                            <div class="cont-img-text col-xs-12">
-                                <div class="col-xs-4 col-sm-4"><img src="../assets/images/3.jpg" class="img-responsive p" alt="1">
-                                <p class="text-center"><strong>Gustavo Lazo</strong></p>
-                                </div>
-                                <div class="col-xs-8 col-sm-8">
-                                    <p>hoy es un excelente dia para comenzar de nuevo, buen dia ;)</p>
-                                </div>
+                        <!--AQUI-->
+                        <div id="content-post" class="col-xs-12 col-sm-12 col-md-10"></div>
+                        <!--AQUI-->
+                        <div class="post-1 col-xs-12" id="post-clonar">
+                          <div class="cont-img-text col-xs-12">
+                            <div class="col-xs-4 col-sm-4">
+                              <img id="user" src="../assets/images/3.jpg" class="img-responsive p" alt="1">
+                              <p class="text-center">
+                                <strong id="name-user">Gustavo Lazo</strong>
+                              </p>
                             </div>
-                            <div class="cont-img-text col-xs-12">
-                                <div class="iconos col-xs-6">
-                                    <span><i class="glyphicon glyphicon-heart-empty"></i></span>
-                                    <span><i class="glyphicon glyphicon-comment"></i></span>
-                                    <span><i class="icon-emoji-happy"></i></span>
-                                </div>
-                                <div class="cont-btn col-xs-6">
-                                   <a href="#"><span><i class="glyphicon glyphicon-share-alt"></i>Compartir</span></a>
-                                </div>
+                            <div class="col-xs-8 col-sm-8" id="content-post">
+                              <p>hoy es un excelente dia para comenzar de nuevo, buen dia ;)</p>
                             </div>
+                          </div>
+                          <div class="cont-img-text col-xs-12">
+                            <div class="iconos col-xs-6">
+                              <span>
+                                <i class="glyphicon glyphicon-heart-empty"></i>
+                              </span>
+                              <span>
+                                <i class="glyphicon glyphicon-comment"></i>
+                              </span>
+                              <span>
+                                <i class="icon-emoji-happy"></i>
+                              </span>
+                            </div>
+                            <div class="cont-btn col-xs-6">
+                              <a href="#">
+                                <span>
+                                  <i class="glyphicon glyphicon-share-alt"></i>Compartir</span>
+                              </a>
+                            </div>
+                          </div>
                         </div>
                         <div class="post-1 col-xs-12">
-                                <div class="cont-img-text col-xs-12">
-                                    <div class="col-xs-4 col-sm-4"><img src="../assets/images/2.jpg" class="img-responsive p" alt="1">
-                                    <p class="text-center"><strong>Antonella Leon</strong></p>
-                                    </div>
-                                    <div class="col-xs-8 col-sm-8">
-                                        <h5>Viajando por el Mundo</h5>
-                                        <img src="../assets/images/viajero1.jpg" class="img-responsive" alt="">
-                                    </div>
-                                </div>
-                                <div class="cont-img-text col-xs-12">
-                                    <div class="iconos col-xs-6">
-                                        <span><i class="glyphicon glyphicon-heart-empty"></i></span>
-                                        <span><i class="glyphicon glyphicon-comment"></i></span>
-                                        <span><i class="icon-emoji-happy"></i></span>
-                                    </div>
-                                    <div class="cont-btn col-xs-6">
-                                        <a href="#"><span><i class="glyphicon glyphicon-share-alt"></i>Compartir</span></a>
-                                    </div>
-                                </div>
+                          <div class="cont-img-text col-xs-12">
+                            <div class="col-xs-4 col-sm-4">
+                              <img src="../assets/images/2.jpg" class="img-responsive p" alt="1">
+                              <p class="text-center">
+                                <strong>Antonella Leon</strong>
+                              </p>
                             </div>
-                            <div class="post-1 col-xs-12">
-                                    <div class="cont-img-text col-xs-12">
-                                        <div class="col-xs-4 col-sm-4"><img src="../assets/images/4.jpg" class="img-responsive p" alt="1">
-                                        <p class="text-center"><strong>Antonio Fernandez</strong></p>
-                                        </div>
-                                        <div class="col-xs-8 col-sm-8">
-                                            <h4>Excellent song <span><i class="glyphicon glyphicon-music"></i></span></h4>
-                                           <img src="../assets/images/video.jpg" class="img-responsive" alt="video">
-                                        </div>
-                                    </div>
-                                    <div class="cont-img-text col-xs-12">
-                                        <div class="iconos col-xs-6">
-                                            <span><i class="glyphicon glyphicon-heart-empty"></i></span>
-                                            <span><i class="glyphicon glyphicon-comment"></i></span>
-                                            <span><i class="icon-emoji-happy"></i></span>
-                                        </div>
-                                        <div class="cont-btn col-xs-6">
-                                            <a href="#"><span><i class="glyphicon glyphicon-share-alt"></i>Compartir</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                </div>
-                <div class="post col-xs-12 col-sm-5 col-md-5">
-                    <div class="mapa">
-                        <h2>Amigos cerca de Ti </h2>
-                        
-                                <div class="fondo-mapa">
-                                        <img src="../assets/images/1.jpg" class="img-responsive img-map1 img-map" data-target="#miventana" data-toggle="modal" alt="1">
-                                        <img src="../assets/images/2.jpg" class="img-responsive img-map2 img-map" data-target="#miventana" data-toggle="modal" alt="2">
-                                        <img src="../assets/images/3.jpg" class="img-responsive img-map3 img-map" data-target="#miventana" data-toggle="modal" alt="3">
-                                        <img src="../assets/images/4.jpg" class="img-responsive img-map4 img-map" data-target="#miventana" data-toggle="modal" alt="4">
-                                        <img src="../assets/images/5.jpg" class="img-responsive img-map5 img-map" data-target="#miventana" data-toggle="modal" alt="5">
-                                        <img src="../assets/images/6.jpg" class="img-responsive img-map6 img-map" data-target="#miventana" data-toggle="modal" alt="6">
-                                    </div>
-                        
+                            <div class="col-xs-8 col-sm-8">
+                              <h5>Viajando por el Mundo</h5>
+                              <img src="../assets/images/viajero1.jpg" class="img-responsive" alt="">
+                            </div>
+                          </div>
+                          <div class="cont-img-text col-xs-12">
+                            <div class="iconos col-xs-6">
+                              <span>
+                                <i class="glyphicon glyphicon-heart-empty"></i>
+                              </span>
+                              <span>
+                                <i class="glyphicon glyphicon-comment"></i>
+                              </span>
+                              <span>
+                                <i class="icon-emoji-happy"></i>
+                              </span>
+                            </div>
+                            <div class="cont-btn col-xs-6">
+                              <a href="#">
+                                <span>
+                                  <i class="glyphicon glyphicon-share-alt"></i>Compartir</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="post-1 col-xs-12">
+                          <div class="cont-img-text col-xs-12">
+                            <div class="col-xs-4 col-sm-4">
+                              <img src="../assets/images/4.jpg" class="img-responsive p" alt="1">
+                              <p class="text-center">
+                                <strong>Antonio Fernandez</strong>
+                              </p>
+                            </div>
+                            <div class="col-xs-8 col-sm-8">
+                              <h4>Excellent song
+                                <span>
+                                  <i class="glyphicon glyphicon-music"></i>
+                                </span>
+                              </h4>
+                              <img src="../assets/images/video.jpg" class="img-responsive" alt="video">
+                            </div>
+                          </div>
+                          <div class="cont-img-text col-xs-12">
+                            <div class="iconos col-xs-6">
+                              <span>
+                                <i class="glyphicon glyphicon-heart-empty"></i>
+                              </span>
+                              <span>
+                                <i class="glyphicon glyphicon-comment"></i>
+                              </span>
+                              <span>
+                                <i class="icon-emoji-happy"></i>
+                              </span>
+                            </div>
+                            <div class="cont-btn col-xs-6">
+                              <a href="#">
+                                <span>
+                                  <i class="glyphicon glyphicon-share-alt"></i>Compartir</span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="post col-xs-12 col-sm-5 col-md-5">
+                        <div class="mapa">
+                          <h2>Amigos cerca de Ti </h2>
+                        <div class="fondo-mapa">
+                            <img src="../assets/images/1.jpg" class="img-responsive img-map1 img-map" data-target="#miventana" data-toggle="modal" alt="1">
+                            <img src="../assets/images/2.jpg" class="img-responsive img-map2 img-map" data-target="#miventana" data-toggle="modal" alt="2">
+                            <img src="../assets/images/3.jpg" class="img-responsive img-map3 img-map" data-target="#miventana" data-toggle="modal" alt="3">
+                            <img src="../assets/images/4.jpg" class="img-responsive img-map4 img-map" data-target="#miventana" data-toggle="modal" alt="4">
+                            <img src="../assets/images/5.jpg" class="img-responsive img-map5 img-map" data-target="#miventana" data-toggle="modal" alt="5">
+                            <img src="../assets/images/6.jpg" class="img-responsive img-map6 img-map" data-target="#miventana" data-toggle="modal" alt="6">
+                        </div>
+                      </div>
+                      </div>
                     </div>
-                </div>
-            </div>
-        </div>
+                  </div>
+     
     </section>
     <!--********************* MODAL *******************-->
     <section>
