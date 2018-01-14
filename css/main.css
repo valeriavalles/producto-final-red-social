@@ -13,20 +13,20 @@ body {
 /*------VISTA CONTENIDO.HTML------*/
 
 /*-----HEADER----*/
-.nav-header, 
+.nav-header,
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background:#56bdab; 
+    background:#56bdab;
 }
 .navbar-default {
     border: 0;
 }
 .navbar-default .navbar-nav>li>a {
     color: #fff;
-} 
+}
 .navbar-default .navbar-toggle .icon-bar {
     background: #fff;
 }
-/*--- SECTION FONDO --*/  
+/*--- SECTION FONDO --*/
 .fondo-contenido {
     background: url('../assets/images/paisaje.jpg')
                 center no-repeat;
@@ -51,17 +51,18 @@ body {
     border-radius: 100%;
 }
 .post {
-    margin-top: 3%; 
-    margin-right: 2%;
-    
+    margin-top: 3%;
+    margin-right: 3%;
+
 }
 .post-1 {
-    margin-top: 4%;
+    width: 29rem;
+    margin: 0.5rem 0;
     border-radius: 12px;
     background: #fff;
 }
 .post:nth-child(2) {
-    margin-right: 2%;
+    margin-right: %;
 }
 .boton {
    width: 85%;
@@ -72,7 +73,7 @@ textarea {
     width: 100%;
     resize: none;
     outline: none;
-    
+
 }
 /*--------- MAPA ----*/
 .fondo-mapa {
@@ -122,7 +123,7 @@ textarea {
     padding: 0;
     display: inline-block;
     margin-left: 12%;
-    
+
 }
 .img-perfil {
     text-align: center;
@@ -148,7 +149,7 @@ textarea {
     margin-right: 5%;
 }
 .cont-slider img:nth-child(2) {
-    margin-right:4%; 
+    margin-right:4%;
 }
 .icon-left-right {
     position: relative;
@@ -178,7 +179,7 @@ textarea {
         position: relative;
         top: 15rem;
     }
-    
+
 }
 @media (min-width: 1024px){
     .cont-slider {
@@ -186,6 +187,12 @@ textarea {
     }
     .mod-imag {
         width: 50%;
+    }
+    .post-1 {
+        width: 55rem;
+        margin: 0.5rem 0;
+        border-radius: 12px;
+        background: #fff;
     }
 }
 /*------ FIN PERFIL.HTML--------*/
