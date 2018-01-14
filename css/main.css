@@ -81,6 +81,7 @@ textarea {
     background-size: cover;
     width: 100%;
     min-height:60vh ;
+    border-radius: 5px;
 }
 .mapa {
     background: #fff;
@@ -156,6 +157,9 @@ textarea {
 
 .iconos span {
     margin-right: 0.7rem;
+}
+.item:hover {
+    -webkit-transform: rotate(360deg);transform: rotate(360deg);
 }
 @media (min-width: 768px){
     .per-cont {

@@ -35,6 +35,7 @@ $(document).ready(function() {
       
       // clonar estructura
       // capturamos a la estructura a clonar
+      
       var $postclonado = $('#post-clonar').clone();
       $postclonado.removeAttr('id');
       $postclonado.attr('id', 'postnew');
@@ -54,6 +55,7 @@ $(document).ready(function() {
       $('#btn-publicar').attr('disabled', true);
     }
   });
+  
 });		  
 
 
