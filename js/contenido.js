@@ -78,10 +78,19 @@ $(document).ready(function() {
 /* -----------  Fin FUNCIONALIDAD PARA POSTEAR---------*/
 /* ------------ FUNCIONALIDAD PARA SUBIR FOTOS ------------*/
 /** Función para postear  */
-/* $('#photobtn').click(function(){
-	var photo = $(#urlInput).val();
-
-	$('#urlInput').val('');
-
-	var contenedor = $('')
-});   */
+function readURL(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function(e) {
+      $('#image1')
+        .attr('src', e.target.result);
+      $('#image2')
+        .attr('src', e.target.result);
+      $('#image3')
+        .attr('src', e.target.result);
+      $('#image4')
+        .attr('src', e.target.result);
+    };
+    reader.readAsDataURL(input.files[0]);
+  }
+}

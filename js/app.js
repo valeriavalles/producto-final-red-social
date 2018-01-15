@@ -2,12 +2,12 @@
 /* ------------ FUNCIONALIDAD/REGISTRATE.JS----------*/
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyDNn2scgvT11XuGhIm7mQt-AwhOZrxnoMQ",
-  authDomain: "viru-social.firebaseapp.com",
-  databaseURL: "https://viru-social.firebaseio.com",
-  projectId: "viru-social",
-  storageBucket: "",
-  messagingSenderId: "341789582331"
+  apiKey: 'AIzaSyDNn2scgvT11XuGhIm7mQt-AwhOZrxnoMQ',
+  authDomain: 'viru-social.firebaseapp.com',
+  databaseURL: 'https://viru-social.firebaseio.com',
+  projectId: 'viru-social',
+  storageBucket: '',
+  messagingSenderId: '341789582331'
 };
 firebase.initializeApp(config);
 
