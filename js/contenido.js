@@ -3,16 +3,28 @@ $(document).ready(function() {
   /* ------ FUNCIONALIDAD PARA SUBIR FOTOS -------*/
   var $board = $('#container-perfil');
   var $btnImage = $('#photobtn');
+  var $post1 = $('.post1');
+
+  $('#btn-publicar').on('click', function() {
+    localStorage.setItem('listado', $post1.html());
+  });
+  if (localStorage.getItem('listado')) {
+    $post1.html(localStorage.getItem('listado'));
+  }     
+
 
   $btnImage.on('click', function() {
     var photo = $('#urlInput').val();
     /** Vaciando los input. */
     $('#urlInput').val('');
     /** Contenedor donde irán los nuevos comentarios. */
-    var contenedor = $('#container-perfil');
-    
-    contenedor.append('<div class=box><div> <img class="photobox center-block img-responsive" src= ' + photo + '  alt=...> </div></div>');
+    var contenedor = $('#container-perfil'); // #container-perfil
+    $('<img class="photobox center-block img-responsive" src= ' + photo + '  alt=...>').replaceAll('.imagen-perfil');
+    // contenedor.append('<div class=box><div> <img class="photobox center-block img-responsive" src= ' + photo + '  alt=...> </div></div>');
+    $('<img class="photobox center-block img-responsive" src= ' + photo + '  alt=...>').replaceAll('.post-img');
   });
+  
+  
   /* ----------------- CODIGO PARA EL POSTEO... ----------*/
   $('#btn-publicar').attr('disabled', true);
   $('#textarea-publicar').keyup(function() {
@@ -44,7 +56,7 @@ $(document).ready(function() {
       $contentPost.text(text);
       $imgUserPostClonado = $postclonado.find('#user').removeAttr('id');
       $imgUserPostClonado.attr('id', 'user-new');
-      $imgUserPostClonado.attr('src', '../assets/images/user.png');
+      $imgUserPostClonado.attr('src', '../assets/images/usertwo.png');
       $nameUserPostClonado = $postclonado.find('#name-user').text('');
 
       $('#content-post').prepend($postclonado);
@@ -55,7 +67,6 @@ $(document).ready(function() {
       $('#btn-publicar').attr('disabled', true);
     }
   });
-  
 });		  
 
 

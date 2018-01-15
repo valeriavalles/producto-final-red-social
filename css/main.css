@@ -15,7 +15,8 @@ body {
 /*-----HEADER----*/
 .nav-header,
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background:#56bdab;
+    background: -webkit-linear-gradient(left, #41f497, #41dff4);
+    
 }
 .navbar-default {
     border: 0;
@@ -47,12 +48,15 @@ body {
     border: 1px solid #dfdce3;
     overflow: hidden;
 }
+.post-img {
+    border-radius: 100%;
+}
 .p {
     border-radius: 100%;
 }
 .post {
     margin-top: 3%;
-    margin-right: 3%;
+    margin-right: 2%;
 
 }
 .post-1 {
@@ -62,7 +66,7 @@ body {
     background: #fff;
 }
 .post:nth-child(2) {
-    margin-right: %;
+    margin-right: 2%;
 }
 .boton {
    width: 85%;
@@ -170,7 +174,7 @@ textarea {
     }
     .postear-text {
        margin-top: 0;
-         margin-left: 50%;
+       margin-left: 50%;
     }
     .pod {
         margin-top: 5%;
@@ -189,7 +193,7 @@ textarea {
         width: 50%;
     }
     .post-1 {
-        width: 55rem;
+        width: 36rem;
         margin: 0.5rem 0;
         border-radius: 12px;
         background: #fff;
@@ -221,7 +225,7 @@ textarea {
 	right: 10px;
 	top: 40%;
 }
-/*---------------
+
 /* ------------ INICIO - ESTILOS DE VISTA PRINCIPAL----------*/
 /*Estilos vista principal*/
 .main-page h1 {
