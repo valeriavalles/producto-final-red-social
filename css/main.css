@@ -9,6 +9,7 @@ body {
 
 .bg-contenido, .bg-perfil {
     background: #dfdce3;
+   /* background: #ccffcc;*/
 }
 /*------VISTA CONTENIDO.HTML------*/
 
@@ -16,7 +17,8 @@ body {
 .nav-header,
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background: -webkit-linear-gradient(left, #41f497, #41dff4);
-    
+    font-family: 'Kalam', cursive;
+    font-size: 2rem;
 }
 .navbar-default {
     border: 0;
@@ -93,6 +95,7 @@ textarea {
     border-radius: 7px;
     padding: 4%;
     text-align: center;
+    font-family:'Kalam', cursive;
 }
 
 .img-map {
@@ -132,7 +135,7 @@ textarea {
 .img-perfil {
     text-align: center;
 }
-.item {
+.item-logo {
     width: 18%;
     display:inline-block;
     margin: 1%;
@@ -187,7 +190,7 @@ textarea {
 }
 @media (min-width: 1024px){
     .cont-slider {
-        margin-top: 12rem;
+        margin-top: 60%;
     }
     .mod-imag {
         width: 50%;
@@ -198,6 +201,59 @@ textarea {
         border-radius: 12px;
         background: #fff;
     }
+}
+/*------ SLIDER CON BOOSTRAP--------*/
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+    width: 100%;
 }
 /*------ FIN PERFIL.HTML--------*/
 

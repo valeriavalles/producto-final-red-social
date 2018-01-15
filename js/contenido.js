@@ -4,6 +4,11 @@ $(document).ready(function() {
   var $board = $('#container-perfil');
   var $btnImage = $('#photobtn');
   var $post1 = $('.post1');
+// SLIDER
+  $('#media').carousel({
+    pause: true,
+    interval: false,
+  });
 
   $('#btn-publicar').on('click', function() {
     localStorage.setItem('listado', $post1.html());
